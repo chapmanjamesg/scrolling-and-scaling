@@ -13,13 +13,8 @@ const audrey = document.getElementById("audrey")
         `window.scrollY`. No lower than 50px, though.
     */
 
-    if(audrey.style.width/3 > 50) {
-        window.srollY
-    }else if(audrey.style.width/4 >100) {
-
-    }else {
-
-    }
+    audrey.style.width = window.scrollY/3 + 'px'
+    audrey.style.height = window.scrollY/4 +'px'
 
     /*
         Adjust the height of audrey to be 1/4 the value of
